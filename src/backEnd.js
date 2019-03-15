@@ -32,8 +32,6 @@ getLifeSpan(age) {
   return remainingYears;
 }
 
-
-
 }
 
 
