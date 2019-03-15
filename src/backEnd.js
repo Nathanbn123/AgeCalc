@@ -7,27 +7,30 @@ export class galacticAge {
     this.jupiter = 0;
   }
 
-getMercury(earth) {
-  let mercury = earth * .24;
+getMercury(age) {
+  let mercury = age * .24;
   return mercury.toFixed(2);
 }
 
-getVenus(earth) {
-  let venus = earth * .62;
+getVenus(age) {
+  let venus = age * .62;
   return venus.toFixed(2);
 }
 
-getMars(earth) {
-  let mars = earth * 1.88;
+getMars(age) {
+  let mars = age * 1.88;
   return mars.toFixed(2);
 }
 
-getJupiter(earth) {
-  let jupiter = earth * 11.86;
+getJupiter(age) {
+  let jupiter = age * 11.86;
   return jupiter.toFixed(2);
 }
 
-
+getLifeSpan(age) {
+  let remainingYears = 79 - age;
+  return remainingYears;
+}
 
 
 
