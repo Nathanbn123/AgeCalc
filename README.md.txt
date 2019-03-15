@@ -6,13 +6,22 @@
 
 ## Description
 
-_This application is a G A L A C T I C  C A L C U L A T O R  which will tell the user how old they are on different planets, it will also tell them approximately how much longer they have to live in years corresponding to multiple planets._
+_This application is a G A L A C T I C | C A L C U L A T O R  which will tell the user how old they are on different planets, it will also tell them approximately how much longer they have to live in years corresponding to multiple planets._
 
 
 ## Planning
 
 ### Configuration and Dependencies
-* Full list of dependencies omitted for brevity.
+**All dependencies are defined in the package.json file**
+_Full list of dependencies omitted for brevity._
+*Jasmine
+*Karma
+*Jquery
+*Webpack
+*babel
+*ESlint
+
+
 
 
 ### Specs
@@ -48,8 +57,8 @@ Will tell the user if they have surpassed their life expectancy and by how long.
 ### Setup/Installation Requirements
 * _Use your command terminal (gitbash if you're using a windows machine) to clone the latest commit from Github, using the url provided_
 * _Once the download is complete, 'cd' into the folder_
-* _Once inside, run 'npm install' in your terminal to install nescessary plugins_
-* _When the install is complete, run 'npm start' in your terminal to open the site in your browser!_
+* _Once inside, run 'npm install' in your terminal to install necessary plugins_
+* _When the install is complete, enter 'npm run start' in your terminal to open the site in your browser!_
 * _To view the code, press 'CTRL + C' to stop the auto update, run "atom ." in your terminal then navigate to the 'src' folder and open whatever you wish to view!_
 
 ### Known Bugs
