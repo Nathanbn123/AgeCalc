@@ -14,17 +14,17 @@ getMercury(earth) {
 
 getVenus(earth) {
   let venus = earth * .62;
-  return venus
+  return venus;
 }
 
 getMars(earth) {
-  let mars = earth * .1.88;
-  return venus
+  let mars = earth * 1.88;
+  return mars;
 }
 
 getJupiter(earth) {
-  let jupiter = earth * .1.88;
-  return venus
+  let jupiter = earth * 1.88;
+  return jupiter;
 }
 
 
