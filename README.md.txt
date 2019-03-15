@@ -12,7 +12,7 @@ _This application is a G A L A C T I C  C A L C U L A T O R  which will tell the
 ## Planning
 
 ### Configuration and Dependencies
-* Full list of dependencies ommitted for brevity.
+* Full list of dependencies omitted for brevity.
 
 
 ### Specs
@@ -36,7 +36,7 @@ Will tell the user if they have surpassed their life expectancy and by how long.
 * Add radical space images?
 
 ### Polish
-* integrate further functionality. 
+* integrate further functionality.
 
 
 
