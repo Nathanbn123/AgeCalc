@@ -23,7 +23,7 @@ getMars(earth) {
 }
 
 getJupiter(earth) {
-  let jupiter = earth * 1.88;
+  let jupiter = earth * 11.86;
   return jupiter;
 }
 
