@@ -13,27 +13,5 @@ describe('Haiku', function() {
     const haiku = new Haiku('tiim', 'he', 'did');
     expect(haiku.findSilents(haiku.first)).toEqual(1);
   });
-  //
-  // it('should check if its a dipthong', function() {
-  //   //Test content will go here.
-  // });
-  //
-  // it('should check if remaing vowels are equal to sylables', function() {
-  //   //Test content will go here.
-  // });
-  //
-  //
-  // it('should check if first entry has 5 syllables', function() {
-  //   //Test content will go here.
-  // });
-  //
-  // it('should check if second entry has 7 syllables', function() {
-  //   //Test content will go here.
-  // });
-  //
-  // it('should check if third entry has 5 syllables', function() {
-  //   //Test content will go here.
-  // });
-
 
 });
