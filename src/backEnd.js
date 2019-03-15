@@ -9,22 +9,22 @@ export class galacticAge {
 
 getMercury(earth) {
   let mercury = earth * .24;
-  return mercury;
+  return mercury.toFixed(2);
 }
 
 getVenus(earth) {
   let venus = earth * .62;
-  return venus;
+  return venus.toFixed(2);
 }
 
 getMars(earth) {
   let mars = earth * 1.88;
-  return mars;
+  return mars.toFixed(2);
 }
 
 getJupiter(earth) {
   let jupiter = earth * 11.86;
-  return jupiter;
+  return jupiter.toFixed(2);
 }
 
 
