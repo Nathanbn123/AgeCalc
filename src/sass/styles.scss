@@ -1,9 +1,42 @@
-h1  {
-  color: green;
+@keyframes space {
+  0%, 100% {
+   margin-left: 0;
+ }
+ 50% {
+   margin-right: 50px;
+ }
 }
 
 
+
+h1  {
+  color: #0DCFFF;
+}
+
 body {
-  background-color: lightblue;
+  background-image: url(../../img/space.jpg);
   text-align: center;
+}
+
+.age-form {
+  margin-bottom: 300px;
+  input {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.info-output {
+  background-color: #033440;
+color: white;
+  height: 500px;
+  width: 50%;
+  border-radius: 5px;
+  margin: auto;
+   li {
+     font-size: 22px;
+     color: white;
+     list-style: none;
+   }
 }

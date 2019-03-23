@@ -32,20 +32,27 @@ export class galacticAge {
     return remainingYears;
   }
 
-  formatAges(age) {
-    const galacticArray = []
-    let mercuryAge = this.getMercury(this.earth)
-    let venusAge = this.getVenus(this.earth)
-    let marsAge = this.getMars(this.earth)
-    let jupiterAge = this.getJupiter(this.earth)
-    galacticArray.push(mercuryAge, venusAge, marsAge, jupiterAge);
-    return galacticArray;
-
+  formatAges() {
+    // const galacticArray = []
+    this.mercury = this.getMercury(this.earth)
+    this.venus = this.getVenus(this.earth)
+    this.mars = this.getMars(this.earth)
+    this.jupiter = this.getJupiter(this.earth)
+    // galacticArray.push(mercuryAge, venusAge, marsAge, jupiterAge);
+    // return galacticArray;
   }
 
+  outLive(age) {
+    if (age > 79) {
+      console.log(age - 79)
+    this.survive = age - 79;
+    }
 
-
+  }
 }
+
+
+
 
 
 
