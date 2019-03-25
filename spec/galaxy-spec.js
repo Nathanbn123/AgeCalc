@@ -36,25 +36,8 @@ import { galacticAge } from "../src/backEnd.js";
   });
 
   describe('formatAges', function() {
-    it('should calculate the users age on each planet and produce an array containing each age', function() {
+    it('should calculate the users age on each planet and alter the object to reflect said ages', function() {
       const human = new galacticAge(44);
-      expect(human.formatAges(human.earth)).toEqual(["10.56", "27.28", "82.72", "521.84"]);
+      expect(human.formatAges()).toEqual(["10.56", "27.28", "82.72", "521.84"]);
     });
   });
-
-
-
-
-
-
-
-
-
-  //
-  // it('should count the number of vowels in a word', function() {
-  //   //Test content will go here.
-  //   const haiku = new Haiku('tiim', 'he', 'did');
-  //   expect(haiku.findVowels(haiku.first)).toEqual(2);
-  // });
-  //
-// });

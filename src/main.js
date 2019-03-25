@@ -22,8 +22,13 @@ $(document).ready(function() {
     let lifeLeft =  human.getLifeSpan(human.earth)
     human.earth = lifeLeft;
     human.formatAges();
-    human.outLive(human.earth);
+    $('.info-output').append("<li>" + "You have aproximately" + " " + human.mercury + " " + "years left to live in Mercury years!" + "</li>")
+    $('.info-output').append("<li>" + "You have aproximately" + " " + human.venus + " " + "years left to live in Venus years!" + "</li>")
+    $('.info-output').append("<li>" + "You have aproximately" + " " + human.mars + " " + "years left to live in Mars years!" + "</li>")
+    $('.info-output').append("<li>" + "You have aproximately" + " " + human.jupiter + " " + "years left to live in Jupiter years!" + "</li>")
+  
     console.log(human);
+
 
 
   });
